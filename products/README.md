@@ -1,50 +1,48 @@
-# 🏆 Bigmannot23 AI Products – Operator‑Built Automation for Freelancers & Job Seekers
+# GigNavigator AI
 
-Welcome to my flagship suite of AI‑powered productivity tools — designed, engineered, QA’d, and shipped by **Bigmannot23 (Alex Minnick)**.
+**[Buy GigNavigator AI on Gumroad](https://aivorasol.gumroad.com/l/gignav)**
 
-Each tool is modular, QA‑validated, privacy‑first, and ready for freelance/creator workflows.
+GigNavigator AI is the ultimate AI‑powered job aggregation and outreach assistant for freelancers and consultants.  It scans 20+ sources including LinkedIn Jobs, Indeed, Upwork, Freelancer, Remote OK, AngelList, Reddit and company career pages.  Using AI summarisation and recency‑aware match scoring, it ranks gigs by how well they fit your skills and even explains the score.  With one click you can generate personalised outreach messages in friendly, formal or persuasive tones and manage your leads through a built‑in pipeline tracker.
 
-## 🚀 Featured Products
+## Who It's For
 
-| Product            | Description                                                                           | Demo/GIF                        | Gumroad Link                                                        |
-|--------------------|---------------------------------------------------------------------------------------|--------------------------------|---------------------------------------------------------------------|
-| **ApplyMate AI**   | AI resume & cover‑letter generator. Batch apply, match scoring & keyword analysis.    | ![demo](ApplyMate_AI/demo.gif) | [Buy ApplyMate AI](https://aivorasol.gumroad.com/l/lexvion)          |
-| **LeadGenie AI**   | Multi‑channel, multi‑language cold outreach & follow‑ups. Single/bulk, Notion export. | ![demo](LeadGenie_AI/demo.gif) | [Buy LeadGenie AI](https://aivorasol.gumroad.com/l/leadgenie)        |
-| **ProposalPal AI** | GPT‑4 proposal builder. Templates, pricing & tone presets, 1‑click exports.           | ![demo](ProposalPal_AI/demo.gif) | [Buy ProposalPal AI](https://aivorasol.gumroad.com/l/proposalpal)    |
+If you're a freelance writer, designer, developer, marketer or consultant who's tired of crowded marketplaces and low‑quality leads, GigNavigator AI helps you discover high‑paying opportunities before everyone else.  It runs locally so your data remains private and you can work offline or online.
 
-## 🧑‍💻 Who am I?
+## Key Features
 
-**Alex Minnick (Bigmannot23)**  
-Senior AI Automation Engineer, Operator, and Digital Product Creator.
+- **Multi‑Source Aggregation:** Pull gigs from 20+ sources (LinkedIn, Indeed, Upwork, Freelancer, Reddit, Remote OK, AngelList, custom company sites etc.) in one dashboard.
+- **AI Job Description Analyzer:** GPT‑powered summaries, recency‑aware match scoring and highlighted keywords show why each gig matters.
+- **Multiple Outreach Tones:** Generate emails, DMs or cover letters in friendly, formal or persuasive styles with proven templates.
+- **1‑Click Outreach:** Craft tailored messages instantly; export them as Markdown or text and copy with a click.
+- **Pipeline & Export:** Save leads to a Kanban‑style tracker and export to CSV or Notion.
+- **Demo Mode & Onboarding:** Guided walkthrough and offline demo dataset so you can explore without setup.
+- **Privacy First:** All processing happens locally; no data leaves your machine.  Optional API keys enable AI and source‑specific features.
 
-* [GitHub](https://github.com/Bigmannot23)
-* [LinkedIn](https://www.linkedin.com/in/alexminnick/)
-* [Gumroad Storefront](https://aivorasol.gumroad.com)
+## How To Install & Use
 
-> **Want a custom automation or consulting?**  
-> DM me on LinkedIn or X/Twitter!
+1. **Prerequisites:** Python 3.10+ and a modern browser.  Optional: OpenAI API key and other API tokens (Twitter, Upwork) in a `.env` file to unlock AI features.
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   # For optional AI & notifications
+   pip install -r requirements-full.txt
+   ```
+3. **Configure:** Copy `.env.example` from the product package to `.env` and edit your API keys.  Edit `config.yml` to enable or disable sources and set keywords.
+4. **Run:** Start the Streamlit app with:
+   ```bash
+   streamlit run app.py
+   ```
+   Load your profile in the sidebar, enable Demo Mode for an instant preview or run a scan to find real gigs.
+5. **Manage Leads:** Save promising gigs to your pipeline, move them through stages and export when needed.
 
-## 📣 Operator Philosophy
+For a full walkthrough, see the [QuickStart](QuickStart.md) and [Troubleshooting](Troubleshooting.md) guides included.
 
-* Build once, sell a thousand times
-* UX and docs matter as much as code
-* “Boring” problems = best cashflow
-* Ship, learn, iterate, repeat
+## Refund & Support Policy
 
-## 📖 How to Use This Repo
+We stand behind our tools.  If GigNavigator AI doesn’t save you time or help you land new work within 60 days, contact us for a full refund.  For support or questions, email [support@lexvion.com](mailto:theaivorasol@gmai.com) or connect on [LinkedIn](https://www.linkedin.com/company/lexvion-solutions/).
 
-1. Browse the subfolders under `/products/` to learn about each tool.  
-2. Read the README in each product folder for a feature overview and setup instructions.  
-3. Use the Gumroad link to purchase the product and access the full codebase.  
-4. Clone the purchased repository and follow the installation guide to run the tool locally.
+## Attribution
 
-## 🏅 Badges
+Built by Lexvion Solutions.  Explore more tools and automations at **[https://aivorasol.gumroad.com](https://aivorasol.gumroad.com)**.
 
-[![QA‑Validated](https://img.shields.io/badge/QA--Validated-brightgreen)](https://aivorasol.gumroad.com) 
-[![Operator‑Built](https://img.shields.io/badge/Operator--Built-blue)](https://github.com/Bigmannot23)
-
-**Level up your workflow — or hire me to automate yours.**
-
-## 📬 Contact Me
-
-Have questions or want to collaborate? Reach out on [LinkedIn](https://www.linkedin.com/in/alexminnick/) or send me a DM on [X/Twitter](https://twitter.com/Bigmannot23).
+**[Buy GigNavigator AI on Gumroad](https://aivorasol.gumroad.com/l/gignav)**
