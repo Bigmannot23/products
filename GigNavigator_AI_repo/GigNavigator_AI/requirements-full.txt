@@ -1,9 +1,0 @@
-# Additional dependencies for optional features
-openai>=1.10.0
-tweepy>=4.14.0
-python-slugify>=8.0.1
-pdfkit>=1.0.0
-reportlab>=4.0.4
-tiktoken>=0.5.1
-twilio>=8.1.0
-notion-client>=2.0.0  # If users wish to integrate with Notion API
